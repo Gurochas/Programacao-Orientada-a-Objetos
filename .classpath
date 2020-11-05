@@ -10,5 +10,6 @@
 	<classpathentry kind="src" path="Sobrecarga, Sobreescrita e Interfaces"/>
 	<classpathentry kind="src" path="Observer - Design Pattern"/>
 	<classpathentry kind="src" path="Eventos"/>
+	<classpathentry kind="src" path="Pattern MVC"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
