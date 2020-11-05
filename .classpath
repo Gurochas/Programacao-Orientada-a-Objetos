@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="Classes Propriedades e Métodos"/>
+	<classpathentry kind="src" path="Memória Stack e Heap"/>
+	<classpathentry kind="src" path="Collections"/>
+	<classpathentry kind="src" path="Herança, Agragação, Associação e Composição"/>
+	<classpathentry kind="src" path="Criação de Telas"/>
+	<classpathentry kind="src" path="Sobrecarga, Sobreescrita e Interfaces"/>
+	<classpathentry kind="src" path="Observer - Design Pattern"/>
+	<classpathentry kind="src" path="Eventos"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
