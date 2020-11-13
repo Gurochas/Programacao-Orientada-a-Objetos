@@ -27,6 +27,10 @@ public class Funcionario {
 		this.nomeFaculdade = nomeFaculdade;
 		this.nomeCurso = nomeCurso;
 	}
+	
+	public Funcionario() {
+		super();
+	}
 
 	public long getId() {
 		return id;

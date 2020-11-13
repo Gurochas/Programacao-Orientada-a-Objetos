@@ -2,8 +2,6 @@ package CRUD_Alunos;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
-import java.util.ArrayList;
-import java.util.List;
 
 import javafx.application.Application;
 import javafx.event.ActionEvent;

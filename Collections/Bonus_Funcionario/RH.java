@@ -12,13 +12,25 @@ public class RH {
 	}
 	
 	public double valorBonus(Funcionario funcionario) {
+		double bonus = calcAval(funcionario);
 		if (funcionario.getFaltasNoAno() < 2) {
-			return 0.3;
+			bonus += 0.3;
+		}else if(funcionario.getFaltasNoAno() <= 4) {
+			bonus += 0.15;
+		}else {
+			bonus += 0.05;
 		}
-		if(funcionario.getFaltasNoAno() <= 4) {
+		return bonus;
+	}
+	
+	private double calcAval (Funcionario funcionario) {
+		if (funcionario.getUltimaNotaAvaliacao() < 5) {
+			return 0.05;
+		}
+		if(funcionario.getUltimaNotaAvaliacao() <= 7) {
 			return 0.15;
 		}else {
-			return 0.05;
+			return 0.3;
 		}
 	}
 	
@@ -37,6 +49,10 @@ public class RH {
 	public void removerFuncionario(Funcionario f) {
 		funcionarios.remove(f);
 		System.out.println("Funcionario removido com sucesso");
+	}
+	
+	public int qtdFuncionarios () {
+		return funcionarios.size();
 	}
 	
 }
